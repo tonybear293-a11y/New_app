@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Multisig Treasury Dashboard (Demo)</title>
+  </head>
+  <body>
+    <h1>Multisig Treasury Dashboard</h1>
+    <p>This is a minimal scaffold UI showing the main flows for the multisig treasury contract.</p>
+
+    <section>
+      <h2>Treasury Overview</h2>
+      <button id="refresh-state">Refresh State</button>
+      <pre id="state"></pre>
+    </section>
+
+    <section>
+      <h2>Deposit STX</h2>
+      <input id="deposit-amount" type="number" placeholder="µSTX amount" />
+      <button id="deposit-btn">Deposit</button>
+    </section>
+
+    <section>
+      <h2>Create Transfer Proposal</h2>
+      <input id="recipient" type="text" placeholder="Recipient principal" />
+      <input id="proposal-amount" type="number" placeholder="µSTX amount" />
+      <input id="memo" type="text" placeholder="Memo" />
+      <button id="propose-btn">Propose Transfer</button>
+    </section>
+
+    <section>
+      <h2>Approve / Execute Proposal</h2>
+      <input id="proposal-id" type="number" placeholder="Proposal ID" />
+      <button id="approve-btn">Approve</button>
+      <button id="revoke-btn">Revoke Approval</button>
+      <button id="execute-btn">Execute</button>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

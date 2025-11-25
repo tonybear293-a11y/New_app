@@ -1,0 +1,10 @@
+[project]
+name = "multisig-treasury"
+description = "Multi-signature Treasury Contract for enterprise teams"
+authors = ["emmanuel"]
+telemetry = false
+
+[contracts.multisig-treasury]
+path = "contracts/multisig-treasury.clar"
+clarity_version = 2
+epoch = 2.4
