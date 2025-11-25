@@ -1,0 +1,14 @@
+[network]
+name = "development"
+
+[accounts.deployer]
+mnemonic = "replace-this-with-a-development-mnemonic"
+balance = 100000000000
+
+[accounts.alice]
+mnemonic = "replace-this-with-a-development-mnemonic-alice"
+balance = 50000000000
+
+[accounts.bob]
+mnemonic = "replace-this-with-a-development-mnemonic-bob"
+balance = 50000000000
